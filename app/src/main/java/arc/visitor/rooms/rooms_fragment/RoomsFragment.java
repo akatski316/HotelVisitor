@@ -86,7 +86,7 @@ public class RoomsFragment extends Fragment implements DatePickerDialog.OnDateSe
             }
         });
 
-
+        Toast.makeText(getContext(),"Please pick date from toolbar",Toast.LENGTH_LONG).show();
         return view;
     }
 
